@@ -23,7 +23,8 @@ if (header && menuToggle && navigation) {
     const link = event.target.closest('a');
     if (!link || !mobileQuery.matches) return;
     setMenu(false);
-    const destination = document.querySelector(link.getAttribute('href'));
+    const target = link.getAttribute('href');
+    const destination = target.startsWith('#') ? document.getElementById(target.slice(1)) : null;
     if (destination) {
       destination.setAttribute('tabindex', '-1');
       destination.focus({ preventScroll: true });

@@ -23,9 +23,9 @@ For a project site, robots.txt is discovered at the host root, not at /bolt/robo
 - Actual product dimensions, materials, hardness or tolerances if available, supported surface treatments, minimum quantities and packaging conditions.
 - Confirmed manufacturing and delivery terms. No invented stock, certifications, reviews, prices or delivery guarantees are included.
 
-The three product families are currently sections of one page. Once substantive specifications are available, dedicated product pages with unique information can be added. Avoid duplicate pages for spelling variations and keyword stuffing.
+The three product families have dedicated static pages under products/. Keep their specifications, inquiry guidance, home-page links and sitemap.xml consistent when updating content. Search engine registration steps are in SEARCH-SETUP.md. Avoid duplicate pages for spelling variations and keyword stuffing.
 
-Photographs in images/catalog are unchanged copies of the supplied product photographs, with ASCII filenames for reliable static hosting. Originals remain in their original folders. main.jpeg is the primary factory image; main2.jpeg is the secondary image. main3.jpeg is not used.
+Photographs in images/catalog are unchanged copies of the supplied product photographs, with ASCII filenames for reliable static hosting. Originals remain in their original folders. The site uses resized JPEG copies under images/optimized for faster loading. factory.jpg comes from main.jpeg; factory-equipment.jpg comes from main2.jpeg. main3.jpeg is not used.
 
 ## References
 
