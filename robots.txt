@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Search engines can fetch sitemap from GitHub Pages URL
+Sitemap: https://trust-corporation.github.io/sitemap.xml
