@@ -58,42 +58,6 @@
         "email": "bbyngsuh@naver.com",
         "contactType": "견적 및 주문 제작 문의",
         "availableLanguage": "Korean"
-      },
-      "hasOfferCatalog": {
-        "@type": "OfferCatalog",
-        "name": "렌치 제품 안내",
-        "itemListElement": [
-          {
-            "@type": "OfferCatalog",
-            "name": "육각 렌치",
-            "url": "https://trust-corporation.github.io/products/hex-wrench.html",
-            "itemListElement": [
-              {
-                "@id": "https://trust-corporation.github.io/#hex-product"
-              }
-            ]
-          },
-          {
-            "@type": "OfferCatalog",
-            "name": "별 렌치",
-            "url": "https://trust-corporation.github.io/products/star-wrench.html",
-            "itemListElement": [
-              {
-                "@id": "https://trust-corporation.github.io/#star-product"
-              }
-            ]
-          },
-          {
-            "@type": "OfferCatalog",
-            "name": "볼 렌치",
-            "url": "https://trust-corporation.github.io/products/ball-wrench.html",
-            "itemListElement": [
-              {
-                "@id": "https://trust-corporation.github.io/#ball-product"
-              }
-            ]
-          }
-        ]
       }
     },
     {
@@ -107,7 +71,7 @@
       }
     },
     {
-      "@type": "WebPage",
+      "@type": "CollectionPage",
       "@id": "https://trust-corporation.github.io/#webpage",
       "url": "https://trust-corporation.github.io/",
       "name": "믿음상공사 | 육각렌치·별렌치·볼렌치 제조·주문제작·대량구매",
@@ -117,50 +81,12 @@
       },
       "about": {
         "@id": "https://trust-corporation.github.io/#organization"
-      }
-    },
-    {
-      "@type": "Product",
-      "@id": "https://trust-corporation.github.io/#hex-product",
-      "name": "육각 렌치",
-      "alternateName": [
-        "육각렌치",
-        "L렌치",
-        "육각L렌치",
-        "6각렌치"
-      ],
-      "url": "https://trust-corporation.github.io/products/hex-wrench.html",
-      "image": "https://trust-corporation.github.io/images/optimized/hex-wrench.jpg",
-      "description": "육각 홈 볼트의 체결과 분해에 사용하는 L형 렌치입니다. 믿음상공사는 육각 렌치의 주문 제작과 대량 구매를 상담합니다.",
-      "manufacturer": {
+      },
+      "publisher": {
         "@id": "https://trust-corporation.github.io/#organization"
-      }
-    },
-    {
-      "@type": "Product",
-      "@id": "https://trust-corporation.github.io/#star-product",
-      "name": "별 렌치",
-      "alternateName": "별렌치",
-      "url": "https://trust-corporation.github.io/products/star-wrench.html",
-      "image": "https://trust-corporation.github.io/images/optimized/star-wrench.jpg",
-      "description": "별 모양 홈 체결부에 사용하는 렌치입니다. 필요한 호칭 규격과 끝단 형상을 확인해 주문 제작 및 대량 구매를 상담합니다.",
-      "manufacturer": {
-        "@id": "https://trust-corporation.github.io/#organization"
-      }
-    },
-    {
-      "@type": "Product",
-      "@id": "https://trust-corporation.github.io/#ball-product",
-      "name": "볼 렌치",
-      "alternateName": [
-        "볼렌치",
-        "볼 포인트 렌치"
-      ],
-      "url": "https://trust-corporation.github.io/products/ball-wrench.html",
-      "image": "https://trust-corporation.github.io/images/optimized/ball-wrench.jpg",
-      "description": "볼 포인트 끝단을 가진 L형 육각 렌치입니다. 필요한 육각 치수와 길이, 작업 조건을 기준으로 주문 제작과 대량 구매를 상담합니다.",
-      "manufacturer": {
-        "@id": "https://trust-corporation.github.io/#organization"
+      },
+      "mainEntity": {
+        "@id": "https://trust-corporation.github.io/#product-list"
       }
     },
     {
@@ -192,10 +118,54 @@
           }
         }
       ]
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://trust-corporation.github.io/#product-list",
+      "name": "믿음상공사 렌치 제품 안내",
+      "numberOfItems": 3,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "WebPage",
+            "@id": "https://trust-corporation.github.io/products/hex-wrench.html#webpage",
+            "url": "https://trust-corporation.github.io/products/hex-wrench.html",
+            "name": "육각 렌치 규격·주문 안내",
+            "description": "육각 홈 볼트의 체결과 분해에 사용하는 L형 렌치입니다. 믿음상공사는 육각 렌치의 주문 제작과 대량 구매를 상담합니다.",
+            "image": "https://trust-corporation.github.io/images/optimized/hex-wrench.jpg"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "WebPage",
+            "@id": "https://trust-corporation.github.io/products/star-wrench.html#webpage",
+            "url": "https://trust-corporation.github.io/products/star-wrench.html",
+            "name": "별 렌치 규격·주문 안내",
+            "description": "별 모양 홈 체결부에 사용하는 렌치입니다. 필요한 호칭 규격과 끝단 형상을 확인해 주문 제작 및 대량 구매를 상담합니다.",
+            "image": "https://trust-corporation.github.io/images/optimized/star-wrench.jpg"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "WebPage",
+            "@id": "https://trust-corporation.github.io/products/ball-wrench.html#webpage",
+            "url": "https://trust-corporation.github.io/products/ball-wrench.html",
+            "name": "볼 렌치 규격·주문 안내",
+            "description": "볼 포인트 끝단을 가진 L형 육각 렌치입니다. 필요한 육각 치수와 길이, 작업 조건을 기준으로 주문 제작과 대량 구매를 상담합니다.",
+            "image": "https://trust-corporation.github.io/images/optimized/ball-wrench.jpg"
+          }
+        }
+      ]
     }
   ]
 }
-  </script>
+</script>
   <!-- Search Console / Naver / Bing verification tags: add only tokens issued to the site owner. -->
 </head>
 <body id="top">
