@@ -31,6 +31,16 @@
 
 공식 기준: [Google 제목 링크](https://developers.google.com/search/docs/appearance/title-link?hl=ko), [Google 이미지 사이트맵](https://developers.google.com/search/docs/crawling-indexing/sitemaps/image-sitemaps?hl=ko), [네이버 콘텐츠 마크업](https://searchadvisor.naver.com/guide/markup-content).
 
+### 네이버 IndexNow 변경 알림
+
+`indexnow-key.txt`는 네이버 공식 방식에 따라 사이트에 공개하는 소유 확인 파일입니다. 배포가 완료된 후 다음 명령으로 홈페이지와 규격서 페이지의 갱신을 네이버에 알릴 수 있습니다.
+
+```sh
+node scripts/notify-search.cjs
+```
+
+다른 페이지를 수정했다면 전체 URL을 인자로 지정합니다. HTTP 200은 전송 성공, 202는 접수 후 소유 확인 중이며, 실제 수집·색인·검색 순위가 확정됐다는 뜻은 아닙니다. Google의 색인 요청과는 별도입니다. [네이버 공식 IndexNow 안내](https://searchadvisor.naver.com/guide/indexnow-request)
+
 ### Google Search Console
 
 1. https://search.google.com/search-console 에 사업체가 관리할 Google 계정으로 로그인합니다.
