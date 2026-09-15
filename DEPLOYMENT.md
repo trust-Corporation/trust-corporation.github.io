@@ -27,6 +27,19 @@ The three product families have dedicated static pages under products/. Keep the
 
 Photographs in images/catalog are unchanged copies of the supplied product photographs, with ASCII filenames for reliable static hosting. Originals remain in their original folders. The site uses resized JPEG copies under images/optimized for faster loading. factory.jpg comes from main.jpeg; factory-equipment.jpg comes from main2.jpeg. main3.jpeg is not used.
 
+## L-wrench size chart
+
+The accessible HTML table in `products/hex-wrench.html#size-chart` is the source for the downloadable PNG. The 11 rows are transcribed from the supplied `images/L렌치 사이즈 표.png`; `images/catalog/hex-wrench-dimensions.png` is an unchanged copy of the supplied `images/L렌치.png` diagram. The homepage links directly to the table.
+
+After changing the table or its styles, regenerate `images/catalog/hex-wrench-size-chart.png` using a local Chrome installation:
+
+```sh
+npm install --prefix /tmp/bolt-size-tools playwright
+NODE_PATH=/tmp/bolt-size-tools/node_modules node scripts/export-size-chart.cjs
+```
+
+Check the exported image visually, then publish it alongside the HTML and CSS. The download is a static file and works without JavaScript; Playwright is only needed when regenerating the PNG.
+
 ## References
 
 - https://developers.google.com/search/docs/fundamentals/seo-starter-guide
