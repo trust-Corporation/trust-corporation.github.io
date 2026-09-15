@@ -17,6 +17,20 @@
 
 ## 소유자 계정에서 진행할 단계
 
+### L렌치 규격서 검색 최적화 (2026-09-15)
+
+- 대표 주소: https://trust-corporation.github.io/products/hex-wrench.html (수집 요청에는 `#size-chart`를 붙이지 않습니다.)
+- 제목: 육각렌치·L렌치 규격표 및 사이즈 도면 | 믿음상공사
+- 1.27–14 mm 11종 규격과 도면, PNG 다운로드를 설명·본문·내부 링크에 반영했습니다.
+- 도면과 규격서 PNG에 ImageObject 정보를 연결하고, 이미지 사이트맵에 두 파일을 추가했습니다. PNG는 페이지의 이미지 미리보기에서도 확인할 수 있습니다.
+- 홈페이지와 육각렌치 페이지의 사이트맵 수정일을 실제 변경일로 갱신했습니다.
+
+배포 후 Google Search Console의 URL 검사에서 위 대표 주소에 **색인 생성 요청**, 네이버 서치어드바이저의 **요청 → 웹 페이지 수집**에서 같은 주소에 수집 요청을 진행합니다. 사이트맵이 미등록 상태라면 https://trust-corporation.github.io/sitemap.xml 을 제출합니다. 요청 완료 여부는 각 관리 도구에서 확인해야 합니다.
+
+추적할 검색어: 육각렌치, L렌치, 육각렌치 규격표, L렌치 사이즈, 육각렌치 치수, L렌치 규격서. 메타 정보와 구조화 데이터는 콘텐츠 이해를 돕고 상위 순위를 보장하지 않습니다. 검색 결과의 제목·설명과 반영 시점은 검색엔진이 결정합니다.
+
+공식 기준: [Google 제목 링크](https://developers.google.com/search/docs/appearance/title-link?hl=ko), [Google 이미지 사이트맵](https://developers.google.com/search/docs/crawling-indexing/sitemaps/image-sitemaps?hl=ko), [네이버 콘텐츠 마크업](https://searchadvisor.naver.com/guide/markup-content).
+
 ### Google Search Console
 
 1. https://search.google.com/search-console 에 사업체가 관리할 Google 계정으로 로그인합니다.

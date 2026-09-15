@@ -50,6 +50,10 @@
 .size-sheet-footer p:last-child { flex-shrink: 0; text-align: right; }
 .size-sheet-footer strong { display: block; color: var(--ink); font-size: 16px; }
 .size-sheet-footer a { display: inline-flex; align-items: center; min-height: 44px; font-variant-numeric: tabular-nums; }
+.size-image-preview { margin-top: 16px; font-size: 15px; }
+.size-image-preview summary { width: fit-content; padding-block: 12px; min-height: 44px; color: var(--accent); cursor: pointer; text-decoration: underline; text-underline-offset: 4px; }
+.size-image-preview > a { display: block; max-width: 640px; margin-top: 12px; }
+.size-image-preview img { width: 100%; }
 @media (max-width: 760px) {
   .product.product-detail { grid-template-columns: 1fr; gap: var(--space-5); }
   .detail-copy { grid-row: 1; padding: 0; }
